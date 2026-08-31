@@ -1,53 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random User Finder</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="box">
-    <!-- Header -->
-    <header>
+      <!-- Header -->
+      <header>
         <div class="header">
-            <h1 id="headingText">Random User Finder</h1>
+          <h1 id="headingText">Github Profile Finder</h1>
         </div>
-    </header>
+      </header>
 
-    <!-- Input User -->
-     <div class="findUser">
-            <form action="" id="userForm">
-                <input type="text" id="inputUser">
-                <button type="submit" id="finduserBtn">Find User</button>
-                <p id="erroMessage"></p>
-                <p id="loading"></p>
-            </form>
-        </div> 
+      <!-- Input User -->
+      <div class="findUser">
+        <form action="" id="userForm">
+          <input type="text" id="inputUser" />
+          <button type="submit" id="finduserBtn">Find User</button>
+          <p id="errorMessage"></p>
+          <p id="loading"></p>
+        </form>
+      </div>
 
+      <main>
+        <div class="user">
+          <!-- User Image. -->
+          <div class="profileImage">
+            <img id="profileIcon" />
+          </div>
 
-    <main>
-     <div class="user">
-        <!-- User Image. -->
-        <div class="profileImage">
-            <img src="" alt="">
-        </div>
-
-        <div class="userDetails">
+          <div class="userDetails">
             <p id="name">Name:</p>
-            <p id="email">Email:</p>
+            <p id="bio">Bio:</p>
+             <p id="userName">Username:</p>
             <p id="country">Country:</p>
-            <p id="Phone">Phone:</p>
-            <p id="userName">Username:</p>
+            <p id="email">Email:</p>
+           
+           
+          </div>
         </div>
-
-
-
-     </div>
-    </main>
-  
-</div>
-<script src="script.js"></script>
-</body>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
