@@ -25,11 +25,24 @@ html {
 .findUser {
     display: flex;
     justify-content: center;
-   margin-top: 20px;
+   margin-top: 45px;
 }
 
 .box{
-    width: 50%;
+    width: 35%;
     height: 50vh;
     border: 1px solid black;
+}
+
+.profileImage {
+    display: flex;
+    justify-content: center;
+}
+
+.userDetails {
+    margin-top: 30px;
+    margin-left: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
 }
