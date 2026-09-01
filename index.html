@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Random User Finder</title>
+    <title>Github Profile Finder</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="box">
@@ -18,10 +24,10 @@
       <!-- Input User -->
       <div class="findUser">
         <form action="" id="userForm">
-          <input type="text" id="inputUser" />
+          <input type="text" id="inputUser" placeholder="Search User" />
           <button type="submit" id="finduserBtn">Find User</button>
           <p id="errorMessage"></p>
-          <p id="loading"></p>
+          <p id="searching"></p>
         </form>
       </div>
 
@@ -33,13 +39,11 @@
           </div>
 
           <div class="userDetails">
-            <p id="name">Name:</p>
-            <p id="bio">Bio:</p>
-             <p id="userName">Username:</p>
-            <p id="country">Country:</p>
-            <p id="email">Email:</p>
-           
-           
+            <p id="name"><strong>Name:</strong></p>
+            <p id="bio"><strong>Bio:</strong></p>
+            <p id="userName"><strong>Username:</strong></p>
+            <p id="country"><strong>Country:</strong></p>
+            <p id="email"><strong>Email:</strong></p>
           </div>
         </div>
       </main>
