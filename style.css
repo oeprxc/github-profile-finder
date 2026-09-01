@@ -34,7 +34,7 @@ html {
 .findUser {
   display: flex;
   justify-content: center;
-  margin-top: 45px;
+  margin-top: 20px;
 }
 
 .box {
@@ -123,9 +123,6 @@ input::placeholder {
     margin-left: 20px;
   }
 
-  .findUser {
-  margin-top: 20px;
-}
 }
 
 @media only screen and (max-width: 600px) {
@@ -138,10 +135,6 @@ input::placeholder {
     margin-top: 20px;
     margin-left: 20px;
   }
-
-  .findUser {
-  margin-top: 20px;
-}
 
 .userDetails p {
   font-size: 1.1rem;
