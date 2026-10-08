@@ -20,7 +20,6 @@ const email = document.getElementById("email");
 const userName = document.getElementById("userName");
 const profileIcon = document.getElementById("profileIcon");
 
-
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
 
@@ -61,6 +60,7 @@ form.addEventListener("submit", async (event) => {
     email.innerHTML = "<strong>Email:</strong>: " + userData.email;
 
     searching.textContent = "";
+    userInput.value = "";
   } catch (error) {
     searching.textContent = "";
     showError.textContent = error.message;
