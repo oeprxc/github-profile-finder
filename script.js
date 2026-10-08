@@ -47,7 +47,7 @@ form.addEventListener("submit", async (event) => {
     const userData = await response.json();
     console.log(userData);
 
-    profileIcon.src = `https://avatars.githubusercontent.com/u/583231?v=4${userData.avatar_url}`;
+    profileIcon.src = `https://avatars.githubusercontent.com/u/313084849?v=4${userData.avatar_url}`;
 
     nameUser.innerHTML = "<strong>Name:</strong> " + userData.name;
 
